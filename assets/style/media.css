@@ -1,0 +1,47 @@
+
+@media screen and (max-width:1024px) {
+
+    .navbar .container .row i.open{
+        display: block;
+        
+    }
+
+    .navbar .container .row .links,
+    .navbar .container .row form{
+        display: none;
+    }
+     
+    
+   
+     .navbar .container .row ul{
+         position: absolute;
+         top: calc(100% + 100px);
+         left: 50%;
+         transform: translate(-50%,-50%);
+         -webkit-transform: translate(-50%,-50%);
+         -moz-transform: translate(-50%,-50%);
+         -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+         width: 100%;
+         display: none ;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         
+         
+        }
+        
+        
+        .navbar .container .row #checkbox:checked ~ ul{
+            display: flex;
+        }
+
+        .navbar .container .row #checkbox:checked ~ label i.close{
+            display: inherit;
+        }
+
+        .navbar .container .row #checkbox:checked ~ label i.open{
+            display: none;
+        }
+
+    }
