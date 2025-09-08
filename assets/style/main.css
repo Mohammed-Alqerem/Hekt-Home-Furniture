@@ -39,7 +39,8 @@ ul{
 
 .navbar{
     padding: 40px;
-    position: fixed;
+    position: sticky;
+    top:0;
     width: 100%;
 }
 
@@ -99,8 +100,99 @@ ul{
 
 /* end navbar */
 
+/* start footer */
+.footer{
+    background-color: #EEEFFB;
+    padding: 40px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.footer .container .right-side{
+    display: flex;
+    flex: 0 0 60%;
+
+}
+
+.footer .container .left-side{
+    flex: 0 0 40%;
+}
+
+.footer .container .right-side .content{
+    flex: 1;
+}
+
+.footer .container .right-side .links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container .right-side .links li a{
+    color: #8A8FB9;
+}
+
+.footer .container .right-side .content h2{
+    margin-bottom: 30px;
+}
 
 
+.footer .container .left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+}
+.footer .container .left-side .content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer .container .left-side .content h3
+,.footer .container .left-side .content address{
+    color: #8A8FB9;
+}
+
+.footer .container .left-side form input[type="text"],
+.footer .container .left-side form input[type="submit"]{
+    padding: 10px 15px ;
+    outline: none;
+    border: solid transparent;
+   
+}
+.footer .container .left-side form input[type="submit"]{
+    background-color:var(--main-color);
+    color: white;
+    padding: 10px 20px;
+}
+
+
+.footer .container .left-side form .parent {
+    display:flex;
+    flex-wrap: wrap;
+    border: transparent solid 1px;
+     border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    overflow: hidden;
+
+}
+
+
+
+
+
+/* end footer */
 
 
 
