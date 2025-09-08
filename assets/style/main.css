@@ -151,9 +151,8 @@ ul{
 }
 .footer .container .left-side .content{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer .container .left-side .content h3
