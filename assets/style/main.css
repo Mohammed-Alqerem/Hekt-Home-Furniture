@@ -42,6 +42,7 @@ ul{
     position: sticky;
     top:0;
     width: 100%;
+    z-index: 2;
 }
 
 .navbar .links{
@@ -230,6 +231,93 @@ ul{
     color: #9DA0AE;
 }
 
+
+.newsLatter{
+    padding: 150px 0;
+    background-image: url(./images/Rectangle\ 102.png);
+    text-align: center;
+
+}
+
+
+.newsLatter .container .btn{
+
+    padding: 10px 20px;
+    background-color: #FB2E86;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color:white;
+}
+
+
+.newsLatter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: #151875;
+
+}
+
+.header{
+    padding: 20px 0 0 0;
+    background-color: #F2F0FF;
+    position: relative;
+    
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+     
+    padding: 40px;
+}
+
+.header .container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 calc(50% - 90px);
+
+    gap: 20px;
+}
+
+.header .container .content span{
+   color: #FB2E86;
+}
+.header .container .content p{
+   color: #8A8FB9;
+}
+.header .container .content h1{
+    line-height: 2;
+}
+
+.header .container .content .btn{
+      padding: 10px 25px;
+    background-color: #FB2E86;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color:white;
+}
+.header .container .header-image{
+    
+    flex: 1 0 calc(50% - 90px);
+}
+
+.header .container .header-image img{
+    max-width: 100%;
+}
+
+.header > img{
+    position: absolute;
+    top: 0;
+    /* left: -100px; */
+}
 
 
 

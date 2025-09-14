@@ -48,6 +48,20 @@
   .footer .container .left-side {
     flex: 0 0 100% !important   ;
   }
+
+  .header .container{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 772px){
+  .header .container{
+    flex-direction: column;
+    padding: 20px !important;
+  }
+  .header .container .content h1{
+    line-height: 1.4 !important;
+  }
 }
 
 
