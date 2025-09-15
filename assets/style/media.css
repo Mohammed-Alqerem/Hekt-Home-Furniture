@@ -35,6 +35,12 @@
   .navbar .container .row #checkbox:checked ~ label i.open {
     display: none;
   }
+  
+  .leatest-product .container .card{
+    flex: 1 0 calc((100% - 30px)/ 2) !important;
+}
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -79,6 +85,17 @@
     padding-right: 30px !important;
     padding-left: 30px !important;
   }
+   .leatest-product .container .card{
+  
+    flex: 1 0 100% !important;
+
+  }
+
+  .leatest-product{
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+
   
   
 

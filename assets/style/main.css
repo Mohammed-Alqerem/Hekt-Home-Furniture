@@ -523,6 +523,129 @@ ul{
 /* end fetures section */
 
 
+/* start leatest-product */
+
+
+
+.leatest-product{
+ text-align: center;
+ padding: 100px 0;
+}
+
+
+.leatest-product .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+
+.leatest-product .container .card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc((100% - 60px)/ 3);
+}
+
+.leatest-product .container .card .image-holder{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    position: relative;
+}
+
+.leatest-product .container .card .image-holder img{
+    max-width: 100%;
+}
+
+.leatest-product .container .card .content p{
+    line-height: 2;
+    color: #00009D;
+    border-bottom: solid 2px #EEEFFB;
+}
+
+.leatest-product .container .card .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.leatest-product .container .card .content .price .old-price{
+    color: #FB2448;
+    text-decoration: line-through;
+}
+
+
+.leatest-product .container .card .content .price .new-price{
+    color: #00009D;
+}
+
+
+.leatest-product .container .card .image-holder .cart{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    opacity: 0;
+    cursor: pointer;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.leatest-product .container .card:hover .image-holder .cart{
+    opacity: 1;
+}
+
+.leatest-product .container .card .image-holder .sales-baner{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+
+.leatest-product h2{
+    font-size:30px;
+    color: #00009D;
+    margin-bottom: 50px;
+}
+
+
+.leatest-product .links{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.leatest-product .links li a{
+    color: #00009D;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.leatest-product .links li a:hover{
+    color: #F701A8;
+    
+    text-decoration: underline;
+}
+
+/* end leatest-product */
+
+
 
 
 
