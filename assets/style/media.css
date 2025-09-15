@@ -52,6 +52,9 @@
   .header .container{
     width: 90%;
   }
+  .features .container .card{
+    flex-basis: calc((100% - 60px)/ 3) !important;
+  }
 }
 
 @media screen and (max-width: 772px){
@@ -69,6 +72,15 @@
     .footer .container .right-side .content{
    flex-basis: calc((100% - 20px)/ 2) !important;
 }
+ .features .container .card{
+    flex-basis: calc((100% - 30px)/ 2) !important;
+  }
+  .features{
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+  
+  
 
 }
 
@@ -93,6 +105,15 @@
 
 
 }
+
+@media screen and (max-width:526px){
+
+   .features .container .card{
+    flex-basis:100% !important;
+  }
+
+}
+
 
 @media screen and (max-width:424px){
     .footer{

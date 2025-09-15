@@ -43,6 +43,7 @@ ul{
     top:0;
     width: 100%;
     z-index: 2;
+    background-color: #fafafa;
 }
 
 .navbar .links{
@@ -319,9 +320,207 @@ ul{
     /* left: -100px; */
 }
 
-
-
 /* end footer */
+
+
+/* fetures section */
+.features{
+   
+    padding: 100px 0;
+    text-align: center;
+
+}
+.features h2{
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #151875;
+}
+
+
+.features .container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.features .container .card{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 15px;
+   background-color: #FFFFFF;
+   box-shadow: 0 5px 6px 0 rgba(0 0 0 /10%);
+   border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   -ms-border-radius: 6px;
+   -o-border-radius: 6px;
+   overflow: hidden;
+   flex: 1 0 calc((100% - 90px)/4);
+   transition: .4s;
+   -webkit-transition: .4s;
+   -moz-transition: .4s;
+   -ms-transition: .4s;
+   -o-transition: .4s;
+}
+
+.features .container .card:hover{
+    background-color: #2F1AC4;
+}
+
+.features .container .card:hover .content h3
+,.features .container .card:hover .content .info{
+   color: white;
+}
+
+.features .container .card:hover .btns .btns1
+,.features .container .card:hover .btns .btns2
+,.features .container .card:hover .btns .btns3{
+    border: none;
+}
+
+.features .container .card:hover .btns .btns3{
+    background-color: #FFEAC1
+}
+
+
+
+.features .container .image-holder{
+    background-color: #F6F7FB;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+
+.features .container .card .image-holder img{
+    max-width: 100%;
+    
+
+}
+
+.features .container .card .btns1
+,.features .container .card .btns2
+,.features .container .card .btns3{
+    padding: 2px 7px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.features .container .card:hover .image-holder .link{
+    opacity: 1;
+}
+
+.features .container .card .image-holder .link{
+    background-color: #08D15F;
+    color: white;
+    padding: 10px 15px;
+   opacity: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.both-color{
+    color: rgb(0, 132, 255);
+}
+
+.diff{
+    color: #00009D;
+}
+
+.features .container .card .cart{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    opacity: 0;
+}
+
+.features .container .card:hover .cart{
+     
+    opacity: 1;
+}
+.features .container .card:hover .cart i{
+    cursor: pointer;
+}
+
+
+.features .container .card .btns1{
+    background-color: #05E6B7;
+}
+
+
+.features .container .card .btns2{
+     
+    background-color: #F701A8;
+}
+
+
+.features .container .card .btns3{
+  
+     background-color: #00009D;
+}
+
+
+.features .container .card .content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.features .container .card .content h3{
+    color: #FB2E86;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+
+
+
+.features .container .card .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #151875;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+/* end fetures section */
 
 
 
