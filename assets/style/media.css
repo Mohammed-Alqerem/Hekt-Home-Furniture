@@ -1,3 +1,22 @@
+@media screen and (max-width: 1500px){
+  .unique-product .container{
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media screen and (max-width: 1130px){
+
+  .trending-product .container .card{
+    flex: 1 0 calc((100% - 40px)/ 3) !important;
+  }
+
+  .trending-product .container.container2 .box{
+
+    flex: 1 0 calc((100% - 20px)/ 2) !important ;
+  
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .navbar .container .row i.open {
     display: block;
@@ -43,12 +62,6 @@
 
 }
 
-@media screen and (max-width: 1500px){
-  .unique-product .container{
-    flex-direction: column-reverse !important;
-  }
-}
-
 @media screen and (max-width: 992px) {
      .footer .container{
         flex-direction: column;
@@ -70,6 +83,12 @@
   .shopex .container .card{
     flex: 1 0 calc((100% - 60px)/ 3) !important;
   }
+
+   .trending-product .container .card{
+    flex-basis: calc((100% - 20px)/ 2) !important;
+  }
+
+
 }
 
 @media screen and (max-width: 772px){
@@ -80,7 +99,9 @@
   .header .container .content h1{
     line-height: 1.4 !important;
   }
-  
+
+ 
+
 }
 
 
@@ -110,6 +131,15 @@
     flex: 1 0 calc((100% - 30px)/ 2) !important;
   }
   
+  .trending-product .container .card{
+    flex: 1 0 100%  !important;
+  }
+
+  .trending-product .container.container2 .box{
+
+    flex: 1 0 100% !important ;
+  
+  }
   
 
 }
@@ -167,3 +197,4 @@
 
  }
 }
+
