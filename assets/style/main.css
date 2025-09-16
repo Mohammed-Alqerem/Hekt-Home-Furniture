@@ -647,6 +647,8 @@ ul{
 
 
 
+/* start shopex */
+
 .shopex{
   text-align: center;
   padding: 50px 30px;
@@ -695,3 +697,118 @@ ul{
 
     color: #bbb5b5;
 }
+
+/*  end shopex */
+
+
+
+/*  start unique-product */
+
+
+.unique-product{
+
+    background-color: #F1F0FF;
+    padding: 35px;
+
+}
+
+.unique-product .container{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.unique-product .same-width{
+    flex: 1 0 calc((100% - 20px)/2);
+}
+
+
+.unique-product .container .content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.unique-product .container .content h3{
+    font-size: 30px;
+    color: #00009D;
+    width: 70%;
+}
+.unique-product .container .image-holder img{
+    max-width: 100%;
+}
+
+.unique-product .container .content .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.unique-product .container .content .info .text{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.unique-product .container .content .info span{
+    background-color: #00009D;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.unique-product .container .content .info .text p{
+
+    color: #bbb5b5;
+}
+
+
+.unique-product .container  .to-cart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.unique-product .container  .to-cart button{
+    padding: 15px 25px;
+    background-color: var(--main-color);
+    color:white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+.unique-product .container .to-cart .cart-info span{
+    display: block;
+    color: #00009D;
+}
+
+.unique-product .container .content .info .text .first{
+   
+    background-color: #FB2E86;
+}
+
+.unique-product .container .content .info .text .second{
+   
+    background-color: #00009D;
+}
+
+.unique-product .container .content .info .text .third{
+   
+    background-color: #2BF5CC;
+}
+
+
+
+
+
+/* end unique-product */
+

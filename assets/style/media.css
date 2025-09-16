@@ -43,6 +43,12 @@
 
 }
 
+@media screen and (max-width: 1500px){
+  .unique-product .container{
+    flex-direction: column-reverse !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
      .footer .container{
         flex-direction: column;
@@ -137,6 +143,9 @@
 
    .features .container .card{
     flex-basis:100% !important;
+  }
+  .unique-product{
+    padding: 15px !important;
   }
 
 }
