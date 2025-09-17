@@ -59,6 +59,10 @@
     flex: 1 0 calc((100% - 30px)/ 2) !important;
 }
 
+.discount-item .container{
+  flex-direction: column;
+}
+
 
 }
 
@@ -100,6 +104,7 @@
     line-height: 1.4 !important;
   }
 
+  
  
 
 }

@@ -965,3 +965,84 @@ box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
     color: #FB2E86;
     text-decoration: underline;
 }
+
+
+/* start discount */
+
+
+.discount-item{
+
+    padding: 50px 30px;
+
+}
+
+.discount-item .container{
+    display: flex;
+    flex-wrap: wrap;
+     
+    align-items: center;
+    gap: 20px;
+
+}
+
+.discount-item .container .content{
+    flex: 1 0 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+}
+
+.discount-item .container .content .text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.discount-item .container .content h3{
+    color: #00009D;
+    font-size: 30px;
+   
+}
+.discount-item .container .content  p{
+    color: #999999;
+}
+
+
+.discount-item .container .content h4{
+    color: #F701A8;
+    font-size: 25px;
+}
+
+.discount-item .container .content a{
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.discount-item .container .image-holder{
+    flex: 1 0 calc(50% - 20px);
+}
+
+.discount-item .container .image-holder img{
+    max-width: 100%;
+}
+
+.discount-item .container .content .text .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discount-item .container .content .text .info p::before{
+   font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f00c";
+  margin-right: 10px;
+}
+
+
+
+
+
+/* end discount */
