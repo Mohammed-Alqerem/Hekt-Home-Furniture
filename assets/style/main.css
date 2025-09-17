@@ -1209,3 +1209,131 @@ box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* end logos */
+
+
+
+/* start blog */
+
+
+.blogs{
+   padding: 100px 20px;
+}
+
+
+.blogs h3{
+    color: #151875;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+.blogs .container{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.blogs .container .card{
+    flex: 1 0 calc((100% - 40px)/3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+
+.blogs h2{
+     text-align: center;
+    font-size: 35px;
+    color: #00009D;
+    margin-bottom: 60px;
+}
+
+
+
+
+.blogs .container .card .image-holder img{
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+.blogs .container .card .time-logo{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+.blogs .container .card .time-logo p{
+    display: flex;
+    gap: 10px;
+    color: #151875;
+}
+.blogs .container .card .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px 20px 20px;
+}
+
+.blogs .container .card .time-logo p .marker{
+
+    color: var(--main-color);
+    
+}
+
+.blogs .container .card .time-logo p .calender{
+    color: #FFA454;
+}
+
+.blogs .container .card .content{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.blogs .container .card .content a{
+    color: #151875;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    border-bottom: 2px solid white;
+}
+
+.blogs .container .card .content p{
+    color: #9DA0AE;
+}
+
+.blogs .container .card:hover .content h3,
+.blogs .container .card:hover .content a{
+   
+    color: var(--main-color);
+}
+
+.blogs .container .card:hover .content a{
+    border-bottom-color: var(--main-color);
+}
+
+
+/* end blog */
