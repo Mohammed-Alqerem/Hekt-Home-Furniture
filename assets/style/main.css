@@ -751,7 +751,7 @@ ul{
 .unique-product .container .content .info .text{
     display: flex;
     gap: 5px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .unique-product .container .content .info span{
@@ -763,6 +763,7 @@ ul{
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    margin-top: 4px;
 }
 
 .unique-product .container .content .info .text p{
