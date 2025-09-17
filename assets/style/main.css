@@ -976,6 +976,12 @@ box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
 
 }
 
+.discount-item .title h2{
+    color: #00009D;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
 .discount-item .container{
     display: flex;
     flex-wrap: wrap;
@@ -984,6 +990,36 @@ box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
     gap: 20px;
 
 }
+
+.discount-item .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+ 
+.discount-item .title ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.discount-item .title ul li a{
+    color:#00009D;
+    transition:color .3s;
+    -webkit-transition:color .3s;
+    -moz-transition:color .3s;
+    -ms-transition:color .3s;
+    -o-transition:color .3s;
+}
+.discount-item .title ul li a:hover{
+    color: var(--main-color);
+     border-bottom: solid 2px var(--main-color);
+
+}
+
 
 .discount-item .container .content{
     flex: 1 0 calc(50% - 20px);
