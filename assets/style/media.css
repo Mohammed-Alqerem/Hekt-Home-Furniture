@@ -91,6 +91,11 @@
    .trending-product .container .card{
     flex-basis: calc((100% - 20px)/ 2) !important;
   }
+  .logos .container .image-holder{
+    flex: 1 0 calc((100% - 40px)/3) !important;
+    
+}
+
 
 
 }
@@ -104,7 +109,10 @@
     line-height: 1.4 !important;
   }
 
-  
+    .logos .container .image-holder{
+    flex: 1 0 calc((100% - 20px)/2) !important;
+    
+}
  
 
 }
@@ -201,5 +209,9 @@
     margin:0 auto;
 
  }
+     .logos .container .image-holder{
+    flex: 1 0 100% !important;
+    
+}
 }
 

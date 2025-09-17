@@ -1181,3 +1181,31 @@ box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
 
 
 /* end top categories */
+
+
+
+/* start logos */
+
+.logos{
+  padding: 100px 20px;
+}
+
+
+
+.logos .container{
+
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    
+}
+
+.logos .container .image-holder{
+    flex: 1 0 calc((100% - 60px)/4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* end logos */
